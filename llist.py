@@ -54,6 +54,7 @@ class LList(object):
             next_node = next_node.next_node
         return res
 
+
 if __name__ == '__main__':
     head = LList(1)
     head.insert(2)
@@ -61,8 +62,8 @@ if __name__ == '__main__':
     head.insert(3)
     head.insert(4)
 
-    print head
+    print(head)
 
     head.delete(3)
 
-    print head
+    print(head)

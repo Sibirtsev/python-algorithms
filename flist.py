@@ -10,9 +10,9 @@ def flatten(array):
 
 if __name__ == '__main__':
     array = [1, [2, 3], [4, [5, 6], 7], 8]
-    print array
-    print flatten(array)
+    print(array)
+    print(flatten(array))
 
     array = ['a', ['b', 'c'], 'd', ['e', ['f', 'g'], 'h'], 'i']
-    print array
-    print flatten(array)
+    print(array)
+    print(flatten(array))
